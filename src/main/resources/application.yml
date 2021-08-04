@@ -1,0 +1,64 @@
+server:
+  # 项目端口
+  port: 9003
+  # 项目前缀
+  servlet:
+    context-path: /
+spring:
+  # mysql配置
+  datasource:
+    name: graduate
+    url: jdbc:mysql://127.0.0.1:3306/consult?useUnicode=true&allowMultiQueries=true&serverTimezone=Asia/Shanghai&characterEncoding=UTF-8&zeroDateTimeBehavior=round
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
+    # 使用druid数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+    initialSize: 5
+    minIdle: 5
+    maxActive: 20
+    maxWait: 60000
+    timeBetweenEvictionRunsMillis: 60000
+    minEvictableIdleTimeMillis: 300000
+    validationQuery: SELECT 1 FROM DUAL
+    testWhileIdle: true
+    testOnBorrow: false
+    testOnReturn: false
+    poolPreparedStatements: true
+    maxPoolPreparedStatementPerConnectionSize: 20
+    filters: stat,log4j
+    connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+    useGlobalDataSourceStat: true
+    jackson:
+      date-format: yyyy-MM-dd HH:mm:ss
+      time-zone: GMT+08
+
+# mybatis配置
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*Mapper.xml
+  # 实体扫描，多个package用逗号或者分号分隔
+  type-aliases-package: com.shong.xiong_mybatis_plugin_usage.model
+  executor-type: simple
+  global-config:
+      db-config:
+        # 默认 雪花算法ID，分布式全局唯一，use UUID
+        id-type: ASSIGN_UUID
+        # 逻辑删除配置，删除状态 0已删除 1未删除
+        logic-delete-value: 0
+        logic-not-delete-value: 1
+        # 全局逻辑删除字段值，使用mybatis自带方法查找和删除都会附带逻辑删除功能（自己写的xml不会）
+        logic-delete-field: isDelete
+        db-type: mysql
+      refresh: false
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    # 驼峰下划线转换，数据库列 对 实体字段名称 的映射
+    map-underscore-to-camel-case: true
+
+# 日志配置
+logging:
+  level:
+    root: info
+  file:
+    path: ./logs
+  config: classpath:logback-spring.xml

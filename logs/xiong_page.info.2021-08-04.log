@@ -1,0 +1,61 @@
+2021-08-04 14:56:06 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Starting XiongMybatisPluginUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 36248 (started by 10349 in D:\Code\E\study\study_self\xiong_mybatis_plugin_usage)
+2021-08-04 14:56:06 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-04 14:56:06 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-04 14:56:06 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2021-08-04 14:56:08 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-04 14:56:09 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Started XiongMybatisPluginUsageApplicationTests in 3.044 seconds (JVM running for 4.101)
+2021-08-04 14:56:09 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-04 14:56:09 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-08-04 14:56:57 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Starting XiongMybatisPluginUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 7556 (started by 10349 in D:\Code\E\study\study_self\xiong_mybatis_plugin_usage)
+2021-08-04 14:56:57 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-04 14:56:57 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-04 14:56:57 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2021-08-04 14:56:59 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-04 14:56:59 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Started XiongMybatisPluginUsageApplicationTests in 2.703 seconds (JVM running for 3.631)
+2021-08-04 14:56:59 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-04 14:56:59 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-08-04 14:57:41 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Starting XiongMybatisPluginUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 35332 (started by 10349 in D:\Code\E\study\study_self\xiong_mybatis_plugin_usage)
+2021-08-04 14:57:41 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-04 14:57:42 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-04 14:57:42 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 JDBC repository interfaces.
+2021-08-04 14:57:43 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-04 14:57:44 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Started XiongMybatisPluginUsageApplicationTests in 2.984 seconds (JVM running for 3.911)
+2021-08-04 14:57:44 [main] INFO  c.s.x.services.AreaServiceImpl - consultConfigAreas = [ConsultConfigArea(areaCode=030401, areaName=德安, state=1), ConsultConfigArea(areaCode=030403, areaName=德安, state=null)] 
+2021-08-04 14:57:44 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-04 14:57:44 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-08-04 14:57:57 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Starting XiongMybatisPluginUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 36268 (started by 10349 in D:\Code\E\study\study_self\xiong_mybatis_plugin_usage)
+2021-08-04 14:57:57 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-04 14:57:57 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-04 14:57:57 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2021-08-04 14:57:59 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-04 14:57:59 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Started XiongMybatisPluginUsageApplicationTests in 2.777 seconds (JVM running for 3.716)
+2021-08-04 14:57:59 [main] INFO  c.s.x.services.AreaServiceImpl - consultConfigAreas = [ConsultConfigArea(areaCode=030401, areaName=德安, state=1), ConsultConfigArea(areaCode=030403, areaName=德安, state=2)] 
+2021-08-04 14:57:59 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-04 14:57:59 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-08-04 15:02:37 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Starting XiongMybatisPluginUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 20584 (started by 10349 in D:\Code\E\study\study_self\xiong_mybatis_plugin_usage)
+2021-08-04 15:02:37 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-04 15:02:37 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-04 15:02:37 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2021-08-04 15:02:39 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-04 15:02:39 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Started XiongMybatisPluginUsageApplicationTests in 2.711 seconds (JVM running for 3.604)
+2021-08-04 15:02:39 [main] INFO  c.s.x.services.AreaServiceImpl - consultConfigAreas = [ConsultConfigArea(areaCode=030400, areaName=JiangXi, state=1), ConsultConfigArea(areaCode=030401, areaName=德安, state=1), ConsultConfigArea(areaCode=030403, areaName=德安, state=2)] 
+2021-08-04 15:02:39 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-04 15:02:39 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-08-04 15:07:56 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Starting XiongMybatisPluginUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 34996 (started by 10349 in D:\Code\E\study\study_self\xiong_mybatis_plugin_usage)
+2021-08-04 15:07:56 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-04 15:07:56 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-04 15:07:56 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 JDBC repository interfaces.
+2021-08-04 15:07:58 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-04 15:07:58 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Started XiongMybatisPluginUsageApplicationTests in 2.674 seconds (JVM running for 3.573)
+2021-08-04 15:21:13 [main] INFO  c.s.x.services.AreaServiceImpl - consultConfigAreas = [ConsultConfigArea(areaCode=030400, areaName=JiangXi, state=1), ConsultConfigArea(areaCode=030401, areaName=德安, state=1), ConsultConfigArea(areaCode=030403, areaName=德安, state=2)] 
+2021-08-04 15:21:13 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-04 15:21:13 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-08-04 15:39:04 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Starting XiongMybatisPluginUsageApplicationTests using Java 1.8.0_45 on LAPTOP-NIMJ2365 with PID 22908 (started by 10349 in D:\Code\E\study\study_self\xiong_mybatis_plugin_usage)
+2021-08-04 15:39:04 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - No active profile set, falling back to default profiles: default
+2021-08-04 15:39:05 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2021-08-04 15:39:05 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7 ms. Found 0 JDBC repository interfaces.
+2021-08-04 15:39:06 [main] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-08-04 15:39:07 [main] INFO  c.s.x.XiongMybatisPluginUsageApplicationTests - Started XiongMybatisPluginUsageApplicationTests in 2.625 seconds (JVM running for 3.572)
+2021-08-04 15:39:07 [main] INFO  c.s.x.services.AreaServiceImpl - consultConfigAreas = [ConsultConfigArea(areaCode=030401, areaName=德安, state=1), ConsultConfigArea(areaCode=030403, areaName=德安, state=2), ConsultConfigArea(areaCode=030400, areaName=JiangXi, state=1)] 
+2021-08-04 15:39:07 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2021-08-04 15:39:07 [SpringApplicationShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

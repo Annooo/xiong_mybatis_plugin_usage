@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.shong.xiong_mybatis_plugin_usage.mapper.CommonMapper">
+    <!-- 开启二级缓存-->
+    <!--    <cache type="cn.enjoy.cache.CaffeineCache"
+               size="1024"
+               eviction="LRU"
+               flushInterval="120000"
+               readOnly="true"/>-->
+
+
+    <resultMap id="AreaResultMap" type="ConsultConfigArea">
+        <result column="AREACODE" property="areaCode" jdbcType="VARCHAR"/>
+        <result column="AREANAME" property="areaName" jdbcType="VARCHAR"/>
+        <result column="STATE" property="state"/>
+    </resultMap>
+
+
+    <sql id="queryAreaByAreaCodesql">
+		areaCode,areaName,state
+	</sql>
+    <select id="queryAreaByAreaCode" flushCache="false" useCache="false" parameterType="java.util.Map"
+            resultMap="AreaResultMap">
+        select <include refid="queryAreaByAreaCodesql"></include> from consult_configarea where areaCode =
+        #{areaCode} and areaName = #{areaName}
+    </select>
+
+    <select id="queryAreaByAreaCodePage" flushCache="false" useCache="false" parameterType="java.util.Map"
+            resultMap="AreaResultMap">
+        select <include refid="queryAreaByAreaCodesql"></include> from consult_configarea
+        <where>
+            <if test="param.areaCode != null and param.areaCode != '' ">
+                and areaCode = #{param.areaCode}
+            </if>
+            <if test="param.areaName != null and param.areaName != '' ">
+                and areaName = #{param.areaName}
+            </if>
+        </where>
+    </select>
+
+
+</mapper>
